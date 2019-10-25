@@ -1,0 +1,10 @@
+###父项目站点###
+target/
+.classpath
+.project
+.settings
+.idea/
+*.iws
+*.iml
+*.ipr
+out/
