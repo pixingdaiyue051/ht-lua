@@ -34,7 +34,7 @@ function average(...)
    for i,v in ipairs(arg) do
       result = result + v
    end
-   print("总共传入 " .. #arg .. " 个数")
-   return result, result // #arg, result / select("#",...)
+--   print("总共传入 " .. #arg .. " 个数")
+   return result, result / #arg, result / select("#",...)
 end
 print("10,5,3,4,5,6", average(10,5,3,4,5,6))
